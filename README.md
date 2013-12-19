@@ -4,7 +4,7 @@ Codeigniter-POTX-PHP
 Port of the Drupal Potx project to work with the CodeIgniter language files
 https://drupal.org/project/potx
 
-In the views, various _e() functions are used to identify translations
+In the views, various _e() functions are used to identify translatable strings.
 
 #Usage
 
