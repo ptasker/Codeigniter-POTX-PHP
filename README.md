@@ -18,7 +18,6 @@ $ite = new RecursiveDirectoryIterator( $path );
 foreach ( new RecursiveIteratorIterator( $ite ) as $filename => $cur ) {
     //http://php.net/manual/en/class.splfileinfo.php
     if ( $cur->getExtension () == "php" ) {
-        $c = file_get_contents ( $cur->getRealPath () );
        _potx_process_file($cur->getRealPath (), 0, '_output_str');
        }
  }
